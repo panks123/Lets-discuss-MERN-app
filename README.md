@@ -7,7 +7,6 @@ create a room for any kind of discussion and other users can join as listeners.
 
 ## Table of Contents
 
-- [Let'sDiscuss](#Let's Discuss)
 - [Description](#description)
 - [Technologies](#technologies)
 - [Usage](#usage)
