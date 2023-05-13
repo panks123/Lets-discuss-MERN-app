@@ -33,7 +33,7 @@ List the technologies used in the project, including programming languages, fram
 Provide step-by-step instructions for installing the application, including any dependencies that need to be installed.
 
 ```
-$ git clone <repo-url>
+$ git clone [<repo-url>](https://github.com/panks123/Lets-discuss-MERN-app)
 $ cd <project-folder>
 $ cd frontend
 $ npm install
