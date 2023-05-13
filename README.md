@@ -23,6 +23,8 @@ List the technologies used in the project, including programming languages, fram
 - MongoDB
 - Express
 - React
+- Redux toolkit
+- Socket.io
 - Node.js
 - WebRTC
 - Twilio
