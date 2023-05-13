@@ -1,0 +1,104 @@
+.roomsHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px ;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.heading{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.searchBox{
+    background: #262626;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 7px;
+    min-width: 260px;
+    border-radius: 20px;
+}
+
+.searchInput{
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+}
+
+.heading{
+    position: relative;
+}
+
+.heading::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 60%;
+    height: 4px;
+    background: #0077ff;
+}
+
+.startRoomBtn{
+    display: flex;
+    align-items: center;
+    background: #20bd5f;
+    padding: 5px 14px;
+    border-radius: 15px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.startRoomBtn:hover{
+    background-color: #0f6632;
+}
+
+.startRoomBtn span{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.roomList{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.8rem;
+    margin-top: 33px;
+}
+
+@media only screen and (max-width: 700px) {
+    .searchBox{
+        min-width: 220px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .left{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    
+}
+
+@media only screen and (max-width: 850px) {
+    .roomList{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .roomList{
+        gap: 5rem;
+    }
+}

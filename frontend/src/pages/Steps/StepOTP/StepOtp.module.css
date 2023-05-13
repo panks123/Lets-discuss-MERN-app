@@ -1,0 +1,12 @@
+/* Reusing the styles defind in  ../StepPhoneOrEmail.module.css */
+.cardWrapper{
+    composes: cardWrapper from '../StepPhoneOrEmail/StepPhoneOrEmail.module.css'
+}
+
+.actionButtonWrap{
+    composes: actionButtonWrap  from '../StepPhoneOrEmail/StepPhoneOrEmail.module.css'
+}
+
+.bottomPara{
+    composes: bottomPara  from '../StepPhoneOrEmail/StepPhoneOrEmail.module.css'
+}

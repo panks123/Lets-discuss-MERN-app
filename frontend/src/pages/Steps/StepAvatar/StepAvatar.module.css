@@ -1,0 +1,36 @@
+.subHeading{
+    color: #c4c5c5;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.avatarWrapper{
+    width: 120px;
+    height: 120px;
+    border: 6px solid #0077ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.avatar{
+    height: 94%;
+    width: 94%;
+    object-fit: cover; /* to maintain the aspect ratio of the image */
+}
+
+.avatarInput{
+    display: none;
+}
+
+.avatarInputLabel{
+    display: inline-block;
+    color: #0077ff;
+    margin: 18px 0;
+}
+
+.avatarInputLabel:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,128 @@
+.userHead{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    border: 3px solid #5453e0;
+}
+
+.userAvatar{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.goBack{
+    display: flex;
+    align-items: center;
+    background: none;
+    outline: none;
+    margin-top: 1.7rem;
+}
+
+.goBack span{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 0.8rem;
+    position: relative;
+}
+
+.goBack span::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 63%;
+    height: 4px;
+    background: #0077ff;
+    border-radius: 5px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clientsWrap{
+    background: #1d1d1d;
+    margin-top: 2rem;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    min-height: calc(100vh - 182px);
+    padding: 2.2rem 3.5rem;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+
+}
+
+.actionBtn{
+    background: #262626;
+    margin-left: 1.7rem;
+    display: flex;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    border-radius: 20px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.actionBtn span {
+    margin-left: 7px;
+    font-weight: bold;
+}
+
+.actionBtn:hover{
+    background: #333333;
+}
+
+.topic{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.clientsList{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.client h4{
+    /* font-weight: bold; */
+    margin-top: 0.3rem;
+}
+
+.micBtn{
+    position: absolute;
+    background: #454545;
+    bottom: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    box-sizing: content-box;
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 540px) {
+    .clientsWrap{
+        padding: 2.2rem 1.4rem;
+    }
+
+    .clientsList{
+        gap: 15px;
+    }
+}

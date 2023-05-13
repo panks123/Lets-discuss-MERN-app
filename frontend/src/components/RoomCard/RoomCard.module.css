@@ -1,0 +1,74 @@
+.card{
+    background: #1d1d1d;
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 250px;
+}
+
+.card:hover{
+    background-color: #040404;
+}
+
+.speakers{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 15px 0;
+}
+
+.avatars .avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #20bd5f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #1d1d1d;
+}
+
+.avatars .avatar:last-child{
+    top: 20px;
+    left: 20px;
+}
+
+.names{
+    margin-left: 90px;
+}
+
+.names span{
+    padding-bottom: 3px;
+    margin-right: 7px;
+    display: inline-block;
+}
+
+.peopleCount{
+    text-align: right;
+}
+
+.peopleCount span{
+    margin-right: 5px;
+}
+
+.singleSpeaker .avatars img{
+    position: initial;
+}
+
+.singleSpeaker .names{
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+    .card{
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .card{
+        width: 290px;
+    }
+}
