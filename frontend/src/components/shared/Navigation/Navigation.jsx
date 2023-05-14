@@ -48,7 +48,7 @@ const Navigation = () => {
       {
         isAuthenticated &&
         <div className={styles.navRight}>
-          <h3>{user?.name}</h3>
+          <h3 style={{textAlign: 'end'}}>{user?.name}</h3>
           <Link to={`/user/${user.id}`}>
             <img 
               className={styles.avatar} src={user.avatar ? user.avatar : '/images/monkey-avatar.png'} 

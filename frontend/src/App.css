@@ -54,5 +54,6 @@ button{
 @media only screen and (max-width: 870px) {
     .container{
         max-width: 95%;
+        padding: 10px;
     }
 }

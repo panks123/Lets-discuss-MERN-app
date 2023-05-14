@@ -81,3 +81,13 @@
 small{
     color: #9f9f9f;
 }
+
+
+@media only screen and (max-width: 670px) {
+    .userWrap{
+        flex-direction: column;
+    }
+    .right{
+        align-self: flex-end;
+    }
+}
