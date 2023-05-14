@@ -7,7 +7,6 @@ create a room for any kind of discussion and other users can join as listeners.
 
 ## Table of Contents
 
-- [Let'sDiscuss](#Let's Discuss)
 - [Description](#description)
 - [Technologies](#technologies)
 - [Usage](#usage)
@@ -24,6 +23,8 @@ List the technologies used in the project, including programming languages, fram
 - MongoDB
 - Express
 - React
+- Redux toolkit
+- Socket.io
 - Node.js
 - WebRTC
 - Twilio
@@ -31,10 +32,10 @@ List the technologies used in the project, including programming languages, fram
 
 ## Installation
 
-Provide step-by-step instructions for installing the application, including any dependencies that need to be installed.
+Step-by-step instructions for installing the application, including any dependencies that need to be installed.
 
 ```
-$ git clone <repo-url>
+$ git clone https://github.com/panks123/Lets-discuss-MERN-app
 $ cd <project-folder>
 $ cd frontend
 $ npm install
