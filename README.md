@@ -32,7 +32,7 @@ List the technologies used in the project, including programming languages, fram
 
 ## Installation
 
-Provide step-by-step instructions for installing the application, including any dependencies that need to be installed.
+Step-by-step instructions for installing the application, including any dependencies that need to be installed.
 
 ```
 $ git clone https://github.com/panks123/Lets-discuss-MERN-app
